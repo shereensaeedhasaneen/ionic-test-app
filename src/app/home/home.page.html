@@ -1,0 +1,30 @@
+<!--android-->
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      shereen saeed
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<!--iphone-->
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <!--<ion-title size="large">Shereen saeed12</ion-title>-->
+      <br>
+      <ion-title size="large">{{name}}</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <div id="container">
+    <strong size="small" >Ready to create an app?</strong>
+    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
+  </div>
+  <ion-button (click)="ss()">change name</ion-button>
+
+  <a routerLink="/about">About</a>
+  <br>
+  <a routerLink="/employees">Employees</a>
+
+</ion-content>

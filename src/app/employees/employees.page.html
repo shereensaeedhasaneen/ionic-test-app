@@ -1,0 +1,17 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>employees</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-list>
+    <ion-item routerLink="/employees/{{emp.id}}" *ngFor="let emp of employee">
+      <ion-avatar slot="start"> <!--بيرتب بشكل احلي-->
+        <ion-img [src]="emp.avatar" [alt]="emp.avatar"></ion-img>
+      </ion-avatar>
+      <ion-label>{{emp.name}}</ion-label>
+      <ion-label>{{emp.age}}</ion-label>
+    </ion-item>
+  </ion-list>
+</ion-content>
