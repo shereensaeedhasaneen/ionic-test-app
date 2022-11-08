@@ -4,6 +4,13 @@
       <ion-back-button defaultHref="/employees"></ion-back-button>
     </ion-buttons>
     <ion-title>{{employee.name}}</ion-title>
+
+    <ion-buttons (click)="deleteEmployee()" slot="primary"><!--end-->
+      <ion-button>
+        <ion-icon name="trash-outline" slot="icon-only"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+
   </ion-toolbar>
 </ion-header>
 

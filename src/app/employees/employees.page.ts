@@ -15,6 +15,7 @@ export class EmployeesPage implements OnInit {
 
   ngOnInit() {
     this.employee=this.employeeService.getAllEmployees();
+    console.log(this.employee);
   }
 
   // routerLink display arrow in list-item
