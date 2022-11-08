@@ -35,4 +35,9 @@ export class EmployeeServiceService {
       ...this.employee.find(el=>el.id===employeeid)
     };
   }
+
+  deleteEmployeeInfo(employeeid: string){
+    console.log(this.employee.filter(el=>el.id!==employeeid));
+    this.employee = this.employee.filter(el=>el.id!==employeeid);
+  }
 }
