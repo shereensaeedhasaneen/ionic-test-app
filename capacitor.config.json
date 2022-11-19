@@ -1,6 +1,6 @@
 {
-	"appId": "io.ionic.starter",
-	"appName": "myIonicApp",
+	"appId": "ord.shereen.employees",
+	"appName": "employees",
 	"webDir": "www",
 	"bundledWebRuntime": false
 }

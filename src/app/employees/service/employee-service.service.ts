@@ -7,13 +7,13 @@ import { Employee } from '../employee.model';
 export class EmployeeServiceService {
   private employee: Employee[]=[
     {id:'1'
-    , name:'shereen'
+    , name:'shereen44'
     ,age: 22
     ,avatar:'https://www.w3schools.com/howto/img_avatar2.png'
     ,adress: ['cairo' , 'london' ,'egypt']
   },
   {id:'2'
-    , name:'reham'
+    , name:'reham56'
     ,age: 26
     ,avatar:'https://www.w3schools.com/w3images/avatar6.png'
     ,adress: ['cairo' , 'london' ,'egypt']
