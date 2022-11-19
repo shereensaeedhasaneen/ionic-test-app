@@ -1,8 +1,8 @@
 # ionic-test-app
-npm i -g @ionic/cli
 # To create ionic project
+npm i -g @ionic/cli
 ionic start app-name
-Or
+(Or)
 ionic start app-name --type=angular
 # to run app on web
 ionic serve
